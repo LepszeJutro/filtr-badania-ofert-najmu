@@ -1,0 +1,24 @@
+{
+  "name": "offers-filter",
+  "version": "1.0.0",
+  "description": "A filter script to categorize entries depending on regular expression hits.",
+  "scripts": {
+    "filter-offers-data": "zx ./filter-offers.mjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "zx": "7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LepszeJutro/filtr-badania-ofert-najmu.git"
+  },
+  "author": "KarolNov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LepszeJutro/filtr-badania-ofert-najmu/issues"
+  },
+  "homepage": "https://github.com/LepszeJutro/filtr-badania-ofert-najmu#readme"
+}
