@@ -30,11 +30,7 @@ export default {
         /(^|\n|\.).*studentom [^.!?]*dzi(ę|e)kuj(ę|e)[\.|$|\n]/gmi
     ],
     "Praca/zarobki": [
-        /umowa\s+o\s+prac(e|ę)/gmi,
-        /za(ś|s)wiadczenie\s+o\s+(prac(e|ę|y)|zarobkach)/gmi,
-        /wyci(ą|a)g\s+z\s+(konta)/gmi,
-        /rachunek\s+z\s+(konta)/gmi,
-        /potwierdzenie\s+dochod(u|ów|ow)/gmi,
-        /por(ę|e)czyciel/gmi
+        /pracuj/mi,
+        /prac(ę|e)/mi,
     ]
 }

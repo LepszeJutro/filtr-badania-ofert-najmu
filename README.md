@@ -1,2 +1,4 @@
-# filtr-badania-ofert-najmu
+# Filtr badania ofert najmu
 Skrypt filtrujący oferty najmu pod względem trafień wg. kategorii i przyjętych wyrażeń regularnych.
+
+Skrypt zakłada, że dane wejściowe w pliku CSV znajdują się w folderze [data/input](data/input) i mają format jak w podanym [przykładzie](data/input/example.csv). Filtr przeszukuję oferty pod względem trafień używając wyrażeń regularnych z danej kategorii. Kategoria i wyrażenia można znaleźć [tu](/classifier.mjs). W przypadku trafienia wynikowy plik CSV ma zaznaczone w danej kolumnie `1`, w przeciwnym wypadku `0`. Dodatkowo wynikowy plik CSV ma kolumnę metraż, która może być użyta do dodatkowej kategoryzacji ofert.
